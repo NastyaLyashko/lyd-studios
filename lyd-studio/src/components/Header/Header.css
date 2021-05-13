@@ -41,3 +41,7 @@
     text-align: right;
     color: #7594A8;
 }
+
+.header__contacts-logo {
+    margin-right: 12px;
+}
