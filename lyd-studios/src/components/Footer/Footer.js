@@ -36,7 +36,7 @@ function Footer () {
                 <img className='footer__logo' src={logo} />
                 <img className='footer__logo-text' src={logo_horiz} />
                 <ul className='footer__navigation' >
-                    <li><NavLink /></li>
+
                 </ul>
             </div>
             </div>

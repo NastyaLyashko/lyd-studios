@@ -1,9 +1,15 @@
 .about-studio {
     position: relative;
+    background: #6695AA;
+}
+
+.about-studio__container {
     display: flex;
     justify-content: space-between;
-    background: #6695AA;
-    padding: 70px calc((100vw - min(1200px, calc(100vw - (70px + 70px)))) / 2);
+    padding: 70px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 .about-studio__logo-container {
