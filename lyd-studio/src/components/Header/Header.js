@@ -1,40 +1,40 @@
 import './Header.css';
-import globus from '../../images/globus.svg';
-import book from '../../images/book.svg';
-import pc from '../../images/pc.svg';
 import telegram from '../../images/telegram.svg';
 import email from '../../images/email.svg';
-import phone from '../../images/phone.svg';
+import whatsapp from '../../images/whatsapp.svg';
+import scype from '../../images/scype.svg';
+import logo from '../../images/logo.svg';
+import logo_horiz from '../../images/text-logo-horiz.svg';
+import notebook from '../../images/notebook.svg';
 
 function Header () {
     return(
         <header className='header'>
-            <div className='header__container' >
-                <div className='header__images'>
-                    <img className='header__image' src={globus} alt='' />
-                    <img className='header__image' src={pc} alt='' />
-                    <img className='header__image' src={book} alt='' />
-                </div>
+            <div className='header__logo-container' >
+                <img className='header__logo-text' src={logo_horiz} />
+                <img className='header__logo' src={logo} />
+                <hr className='header__line'></hr>
             </div>
-            <div className='header__main' >
-                <div className='header__logo-container' >
-                    <h1 className='header__title' >YOUR MOMMA</h1>
-                    <img className='header__logo' ></img>
-                </div>
-                <h2 className='header__subtitle' >ебанись, какой пафосный слоган!</h2>
-                <div className='header__contacts' >
-                    <a href="https://telegram.im/@alexoswart" target="_blank">
-                        <img className='header__contacts-logo' src={telegram} alt=''  />
-                    </a>
-                    <a href="mailto:someone@example.com">
+            <p className='header__quote'>If you talk to a man in his language, you can get to his heart.<br />
+                    <span className='header__quote-author'>(Nelson Mandela)</span></p>
+            <div  className='header__main-container'>
+                <p className='header__text'>Саня хотел тут какой-то текст, что-то про “мы студия перевода и озвучки из СПб”</p>
+                <img className='header__img' src={notebook} />
+            </div>
+            <div className='header__contacts' >
+                <a href="https://telegram.im/@alexoswart" target="_blank">
+                    <img className='header__contacts-logo' src={telegram} alt=''  />
+                </a>
+                <a href="mailto:someone@example.com">
                     <img className='header__contacts-logo' src={email} alt=''  />
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=79111274967">
-                    <img className='header__contacts-logo' src={phone} alt=''  />
-                    </a>
-                </div>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=79111274967">
+                    <img className='header__contacts-logo' src={whatsapp} alt=''  />
+                </a>
+                <a href="mailto:someone@example.com">
+                    <img className='header__contacts-logo' src={scype} alt=''  />
+                </a>
             </div>
-
         </header>
     )
 }
