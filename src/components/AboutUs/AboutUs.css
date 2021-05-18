@@ -1,0 +1,85 @@
+.about-us {
+    position: relative;
+    max-width: 1200px;
+    display: flex;
+    padding: 70px;
+    margin: auto;
+}
+
+.about-us__main-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.about-us__title {
+    text-align: center;
+}
+
+.about-us__portrets {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 50px));
+    grid-template-rows: 400px 30px;
+    gap: 0px 100px;
+    align-items: center;
+}
+
+.about-us__portret {
+    margin: 0px auto;
+    border-radius: 50%;
+    max-width: 350px;
+    width: 100%;
+    border: 3px solid #EAA985;
+}
+
+.about-us__portret-description {
+    margin: 0px;
+    max-width: 390px;
+    width: 100%;
+    text-align: center;
+}
+
+.about-us__line {
+    transform: rotate(90deg);
+    width: 32px;
+    height: 799px;
+    position: absolute;
+    top: 130px;
+    right: calc(50% - 16px);
+}
+
+.about-us__text-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto 0px;
+}
+
+.about-us__text {
+    color: #6695AA;
+    margin: 0px 45px 0px 0px;
+    font-size: 21px;
+    line-height: 1.4;
+    text-align: justify;
+}
+.about-us__text:last-child {
+    margin: 0px;
+}
+
+.about-us__logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.about-us__logo-text {
+    max-width: 59px;
+    margin-bottom: 35px;
+}
+
+.about-us__logo {
+    max-width: 140px;
+    max-height: 140px;
+}

@@ -1,0 +1,8 @@
+@font-face {
+	font-family: "MTV Upgrade Bold";
+	font-weight: normal;
+	font-style: normal;
+    font-display: swap;
+    src: url('./mtv-upgrade-bold.woff') format("woff"),
+        url('./mtv-upgrade-bold.woff2') format("woff2");
+}
