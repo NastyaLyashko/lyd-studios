@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/lyd-studios/static/css/main.7f103051.chunk.css",
+    "main.js": "/lyd-studios/static/js/main.2695bd24.chunk.js",
+    "main.js.map": "/lyd-studios/static/js/main.2695bd24.chunk.js.map",
+    "runtime-main.js": "/lyd-studios/static/js/runtime-main.937ad502.js",
+    "runtime-main.js.map": "/lyd-studios/static/js/runtime-main.937ad502.js.map",
+    "static/js/2.f46a637e.chunk.js": "/lyd-studios/static/js/2.f46a637e.chunk.js",
+    "static/js/2.f46a637e.chunk.js.map": "/lyd-studios/static/js/2.f46a637e.chunk.js.map",
+    "static/js/3.d83f7c31.chunk.js": "/lyd-studios/static/js/3.d83f7c31.chunk.js",
+    "static/js/3.d83f7c31.chunk.js.map": "/lyd-studios/static/js/3.d83f7c31.chunk.js.map",
+    "index.html": "/lyd-studios/index.html",
+    "static/css/main.7f103051.chunk.css.map": "/lyd-studios/static/css/main.7f103051.chunk.css.map",
+    "static/js/2.f46a637e.chunk.js.LICENSE.txt": "/lyd-studios/static/js/2.f46a637e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/lyd-studios/static/media/mtv-upgrade-bold.a60c1924.woff2",
+    "static/media/email.67314cbf.svg": "/lyd-studios/static/media/email.67314cbf.svg",
+    "static/media/line.f45f8da3.svg": "/lyd-studios/static/media/line.f45f8da3.svg",
+    "static/media/logo.ee14ff61.svg": "/lyd-studios/static/media/logo.ee14ff61.svg",
+    "static/media/notebook.6845f173.svg": "/lyd-studios/static/media/notebook.6845f173.svg",
+    "static/media/portret_1.a2cbeee8.png": "/lyd-studios/static/media/portret_1.a2cbeee8.png",
+    "static/media/portret_2.3fa174a0.svg": "/lyd-studios/static/media/portret_2.3fa174a0.svg",
+    "static/media/scype.c76b70b4.svg": "/lyd-studios/static/media/scype.c76b70b4.svg",
+    "static/media/studio_1.6d5bf994.png": "/lyd-studios/static/media/studio_1.6d5bf994.png",
+    "static/media/studio_2.b9865861.png": "/lyd-studios/static/media/studio_2.b9865861.png",
+    "static/media/studio_3.e4aa48da.png": "/lyd-studios/static/media/studio_3.e4aa48da.png",
+    "static/media/telegram.09af4890.svg": "/lyd-studios/static/media/telegram.09af4890.svg",
+    "static/media/text-logo-horiz.c483961e.svg": "/lyd-studios/static/media/text-logo-horiz.c483961e.svg",
+    "static/media/text-logo-vert.7476a20b.svg": "/lyd-studios/static/media/text-logo-vert.7476a20b.svg",
+    "static/media/whatsapp.d4a0b7cc.svg": "/lyd-studios/static/media/whatsapp.d4a0b7cc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.937ad502.js",
+    "static/js/2.f46a637e.chunk.js",
+    "static/css/main.7f103051.chunk.css",
+    "static/js/main.2695bd24.chunk.js"
+  ]
+}
