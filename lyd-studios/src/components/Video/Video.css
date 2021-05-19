@@ -3,6 +3,11 @@
     display: flex;
     margin: auto;
     padding: 70px;
+    max-width: 1140px;
+}
+
+.video__container {
+    max-width: 100%;
 }
 
 .video__youtube {

@@ -5,7 +5,7 @@
 
 .header__container {
     padding: 30px 35px;
-    max-width: 1200px;
+    max-width: 1140px;
     width: 100%;
     margin: auto;
 }
@@ -39,22 +39,31 @@
 
 .header__line {
     border: none;
-    background-color: #EAA985;
-    color: #EAA985;
     height: 9px;
     margin: 0px;
-    max-width: 90%;
-    width: 90%;
     border-radius: 5px;
     z-index: 2;
+}
+
+.header__line_orange {
+    background-color: #EAA985;
+    color: #EAA985;
     align-self: center;
     grid-column: 1/3;
     grid-row: 2/3;
+    max-width: 90%;
+    width: 90%;
+}
+
+.header__line_blue {
+    background-color: #6695AA;
+    color: #6695AA;
+    max-width: 100%;
+    width: 100%;
 }
 
 .header__main-container {
     position: relative;
-    border-bottom: 9px solid #6695AA;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -82,6 +91,7 @@
     max-width: 800px;
     max-height: 400px;
     width: 100%;
+    height: 115%;
 }
 
 .header__contacts {
@@ -96,6 +106,6 @@
     font-size: 24px;
     line-height: 1.3;
     max-width: 536px;
-    margin: 20px;
+    margin: 5px 20px;
     align-self: end;
 }

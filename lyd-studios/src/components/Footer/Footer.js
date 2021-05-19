@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router-dom';
 import './Footer.css';
+import NavBar from '../NavBar/NavBar';
 import telegram from '../../images/telegram.svg';
 import email from '../../images/email.svg';
 import whatsapp from '../../images/whatsapp.svg';
@@ -15,31 +15,25 @@ function Footer () {
                 <img className='footer__logo-text' src={logo_horiz} />
                 <img className='footer__logo' src={logo} />
             </div>
-            <h2 className='footer__subtitle'>For further communication, please, contact us:</h2>
-            <div className='footer__contacts' >
-                <a href="https://telegram.im/@alexoswart" target="_blank">
-                    <img className='footer__contacts-logo' src={telegram} alt=''  />
-                </a>
-                <a href="mailto:someone@example.com">
-                    <img className='footer__contacts-logo' src={email} alt=''  />
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=79111274967">
-                    <img className='footer__contacts-logo' src={whatsapp} alt=''  />
-                </a>
-                <a href="mailto:someone@example.com">
-                    <img className='footer__contacts-logo' src={scype} alt=''  />
-                </a>
+            <div className='footer__main-container'>
+                <h2 className='footer__subtitle'>For further communication, please, contact us:</h2>
+                <div className='footer__contacts' >
+                    <a href="https://telegram.im/@alexoswart" target="_blank">
+                        <img className='footer__contacts-logo' src={telegram} alt='Telergram'  />
+                    </a>
+                    <a href="mailto:someone@example.com">
+                        <img className='footer__contacts-logo' src={email} alt='Email'  />
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=79111274967">
+                        <img className='footer__contacts-logo' src={whatsapp} alt='WhatsApp'  />
+                    </a>
+                    <a href="mailto:someone@example.com">
+                        <img className='footer__contacts-logo' src={scype} alt='Scype'  />
+                    </a>
+                </div>
+                <img className='footer__line' src={line}/>
             </div>
-            <img className='footer__line' src={line}/>
-            <div className='footer__bottom-container'>
-            <div className='footer__logo-container' >
-                <img className='footer__logo' src={logo} />
-                <img className='footer__logo-text' src={logo_horiz} />
-                <ul className='footer__navigation' >
-
-                </ul>
-            </div>
-            </div>
+            <NavBar />
         </footer>
     )
 }

@@ -14,7 +14,7 @@ function Header () {
                 <div className='header__logo-container' >
                     <img className='header__logo-text' src={logo_horiz} />
                     <img className='header__logo' src={logo} />
-                    <hr className='header__line'></hr>
+                    <hr className='header__line header__line_orange'></hr>
                 </div>
                 <p className='header__quote'>If you talk to a man in his language, you can get to his heart.<br />
                         <span className='header__quote-author'>(Nelson Mandela)</span></p>
@@ -22,6 +22,7 @@ function Header () {
                     <p className='header__text'>Саня хотел тут какой-то текст, что-то про “мы студия перевода и озвучки из СПб”</p>
                     <img className='header__img' src={notebook} />
                 </div>
+                <hr className='header__line header__line_blue'></hr>
                 <div className='header__contacts' >
                     <a href="https://telegram.im/@alexoswart" target="_blank">
                         <img className='header__contacts-logo' src={telegram} alt=''  />

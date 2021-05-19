@@ -1,0 +1,55 @@
+.navbar {
+    background: #000;
+}
+
+.navbar__main-container {
+    padding: 20px 70px;
+}
+
+.navbar__links-container {
+    display: flex;
+    justify-content: left;
+}
+
+.navbar__logo-container {
+    display: flex;
+    max-width: calc(100% - 70px);
+    width: 48.5%;
+}
+.navbar__logo {
+    max-width: 100px;
+    width: 100%;
+}
+
+.navbar__logo-text {
+    max-width: 335px;
+    width: 100%;
+    margin-left: 18px;
+}
+
+.navbar__navigation{
+    display: flex;
+    flex-direction: column;
+    width: 51.5%;
+}
+
+.navbar__navigation-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.navbar__copyright-container {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 1.3;
+    align-items: center;
+}
+
+.navbar__copyright-text {
+    max-width: 335px;
+    margin: 0px;
+}
