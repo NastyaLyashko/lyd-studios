@@ -1,0 +1,50 @@
+.market {
+    position: relative;
+    background: #6695AA;
+}
+
+.market__main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.market__logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.market__logo-text {
+    max-width: 59px;
+    margin-top: 35px;
+}
+
+.market__logo {
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.market__text-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.market__text {
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: justify;
+    margin: 0px 0px 15px 0px;
+}
+
+.market__img-container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}

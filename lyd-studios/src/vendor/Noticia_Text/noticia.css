@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Noticia Text";
+	font-weight: normal;
+	font-style: normal;
+    font-display: swap;
+    src: url('./NoticiaText-Regular.ttf') format("ttf");
+}
+
+@font-face {
+	font-family: "Noticia Text";
+	font-weight: bold;
+	font-style: normal;
+    font-display: swap;
+    src: url('./NoticiaText-Bold.ttf') format("ttf");
+}

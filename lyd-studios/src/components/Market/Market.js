@@ -1,34 +1,35 @@
 import './Market.css';
 import logo from '../../images/logo.svg';
-import line from '../../images/line.svg';
 import logo_vert from '../../images/text-logo-vert.svg';
-import studio_1 from '../../images/studio_1.png';
-import studio_2 from '../../images/studio_2.png';
-import studio_3 from '../../images/studio_3.png';
+import market_1 from '../../images/market_1.png';
+import market_2 from '../../images/market_2.png';
 
 function Market () {
     return(
-        <section className='about-studio'>
-            <div className='about-studio__container'>
-                <div className='about-studio__logo-container'>
-                    <img className='about-studio__logo' src={logo} alt='logo' />
-                    <img className='about-studio__logo-text' src={logo_vert} alt='logo'/>
+        <section className='market'>
+            <div className='market__main-container'>
+                <div className='market__logo-container'>
+                    <img className='market__logo' src={logo} alt='logo' />
+                    <img className='market__logo-text' src={logo_vert} alt='logo'/>
                 </div>
-                <div className='about-studio__grid'>
-                    <img className='about-studio__line' src={line} />
-                    <p className='about-studio__studio-text'>In five years since 2016, the Russian online education market has grown by 300% and 
-                        it will undoubtedly continue growing in the future. In particular, since 2016, Further, 
-                        or Continuing education segment has grown from 7 to 11 billion roubles, that’s more than 50 million dollars spent on someone else’s product.</p>
-                    <img className='about-studio__studio-img' src={studio_1} />
-                    <img className='about-studio__studio-img' src={studio_2} />
-                    <p className='about-studio__studio-text'>Additional school education has also grown, 
-                        with its share in the total amount of money spent on education increasing from 3.6 billion roubles to 10, which is almost 90 million dollars. 
-                        As it stands right now, 1/5th of revenue in russian education comes from online courses. 
-                        Almost 3/4ths of such content are provided by different private companies.</p>
-                    <p className='about-studio__studio-text'>This just goes to show that russian-speaking consumers are eager to spend their money on high-quality educational programs. 
-                        There’s just one problem: a lot of said consumers can’t really speak or understand English at a sufficient level.</p>
-                    <img className='about-studio__studio-img' src={studio_3} />
+                <div className='market__text-container' >
+                    <p className='market__text'>In five years russian online education market has grown by 300%, and the experts unanimously agree that it will continue to grow in the years to come. 
+                        Even now there are billions of dollars being made by various platforms operating in Russia. 
+                        More specifically, last year russian people spent 11 billion on online further education and 10 billion on additional school education.</p>
+                    <p className='market__text'>The largest russian online platforms offer their students hundreds of different courses - from “searching for the meaning of life” to “international marketing”. 
+                        One website, offering IT courses, has already brought more than 4 million users, hundreds of thousands study daily on different platforms. 
+                        It is safe to say that 20% of russian education market accounts for online courses, 80% of which are owned by private companies.</p>
+                    <p className='market__text'>At the same time, russian people prefer being educated in their language. After analyzing incoming traffic on the “Coursera” website, 
+                        with more than 300 000 users, it became apparent that 50% of people purchase courses in russian. The thing is - there are only 200 of those there. With our help, 
+                        you can tap into that customer base.</p>
+                    <p className='market__text'>Russian-speaking students are actively searching for high-quality online education, but their efforts are hampered by the lack of localized courses. 
+                        “Lyd Studios” offers a partnership that can remedy the content drought felt by many russian-speaking customers.</p>
+                    <div className='market__img-container' >
+                        <img src={market_1} />
+                        <img src={market_2} />
+                    </div>
                 </div>
+
             </div>
         </section>
     )

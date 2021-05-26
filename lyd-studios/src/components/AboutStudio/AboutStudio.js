@@ -17,18 +17,16 @@ function AboutStudio () {
                 <div className='about-studio__grid'>
                     <img className='about-studio__line' src={line} />
                     <img className='about-studio__studio-img' src={studio_1} />
-                    <p className='about-studio__studio-text'>We are a studio “NEED TO FUCKING COME UP” – a russian start-up, 
-                        which offers an entire cycle of localization of educational content – for a russian-speaking audience. 
-                        Be it translating, recording voice-over, or mastering sound – we got it covered.</p>
-                    <p className='about-studio__studio-text'>You get access to a vast, rapidly growing market and millions of potential consumers 
-                        while retaining full rights for the content and the ability to use it as you please.</p>
+                    <p className='about-studio__studio-text'>With a decade of experience, we are proficient in anything sound-related: 
+                        from clearing up recorded audio, to doing voice-over in the first place.</p>
+                    <p className='about-studio__studio-text'>We have multiple studios, which means we can work on several projects at once. 
+                        Or finish one project much faster!
+</p>
                     <img className='about-studio__studio-img' src={studio_2} />
                     <img className='about-studio__studio-img' src={studio_3} />
-                    <p className='about-studio__studio-text'>Since this start-up is a new endeavor for us, 
-                        and we’d like to develop our reputation as a trustworthy company creating high-quality content, 
-                        we have a few very lucrative proposals. For instance, to demonstrate our capabilities, 
-                        we offer to completely localize one lesson - absolutely for free. After that, 
-                        you are free to decide whether you want to continue our partnership on a commercial basis.</p>
+                    <p className='about-studio__studio-text'>Even though we're new to localization business, we are by no means new to the whole process. 
+                        Still, we are looking for long-term partners and are eager to offer highly lucrative options.
+</p>
                 </div>
             </div>
         </section>

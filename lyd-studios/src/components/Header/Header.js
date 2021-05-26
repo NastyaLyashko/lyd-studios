@@ -12,7 +12,7 @@ function Header () {
         <header className='header'>
             <div className='header__container'>
                 <div className='header__logo-container' >
-                    <img className='header__logo-text' src={logo_horiz} />
+                    <h1 className='header__logo-text' src={logo_horiz}>LYD STUDIOS</h1>
                     <img className='header__logo' src={logo} />
                     <hr className='header__line header__line_orange'></hr>
                 </div>

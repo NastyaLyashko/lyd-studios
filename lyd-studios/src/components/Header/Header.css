@@ -24,7 +24,60 @@
     width:  calc(100% - 50px);
     max-height: 127px;
     align-self: end;
+    margin: 0px;
     margin-left: 50px;
+    font-family: "MTV Upgrade Bold";
+    font-size: 115px;
+    color: #fff;
+    text-shadow: 
+    -0   -5px 0   #EAA985,
+     0   -5px 0   #EAA985,
+    -0    5px 0   #EAA985,
+     0    5px 0   #EAA985,
+    -5px -0   0   #EAA985,
+     5px -0   0   #EAA985,
+    -5px  0   0   #EAA985,
+     5px  0   0   #EAA985,
+    -1px -5px 0   #EAA985,
+     1px -5px 0   #EAA985,
+    -1px  5px 0   #EAA985,
+     1px  5px 0   #EAA985,
+    -5px -1px 0   #EAA985,
+     5px -1px 0   #EAA985,
+    -5px  1px 0   #EAA985,
+     5px  1px 0   #EAA985,
+    -2px -5px 0   #EAA985,
+     2px -5px 0   #EAA985,
+    -2px  5px 0   #EAA985,
+     2px  5px 0   #EAA985,
+    -5px -2px 0   #EAA985,
+     5px -2px 0   #EAA985,
+    -5px  2px 0   #EAA985,
+     5px  2px 0   #EAA985,
+    -3px -5px 0   #EAA985,
+     3px -5px 0   #EAA985,
+    -3px  5px 0   #EAA985,
+     3px  5px 0   #EAA985,
+    -5px -3px 0   #EAA985,
+     5px -3px 0   #EAA985,
+    -5px  3px 0   #EAA985,
+     5px  3px 0   #EAA985,
+    -4px -5px 0   #EAA985,
+     4px -5px 0   #EAA985,
+    -4px  5px 0   #EAA985,
+     4px  5px 0   #EAA985,
+    -5px -4px 0   #EAA985,
+     5px -4px 0   #EAA985,
+    -5px  4px 0   #EAA985,
+     5px  4px 0   #EAA985,
+    -5px -5px 0   #EAA985,
+     5px -5px 0   #EAA985,
+    -5px  5px 0   #EAA985,
+     5px  5px 0   #EAA985,
+    -5px -5px 0   #EAA985,
+     5px -5px 0   #EAA985,
+    -5px  5px 0   #EAA985,
+     5px  5px 0   #EAA985;
 }
 
 .header__logo {
