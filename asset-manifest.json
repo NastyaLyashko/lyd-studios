@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lyd-studios/static/css/main.98b1b728.chunk.css",
-    "main.js": "/lyd-studios/static/js/main.a1fabb88.chunk.js",
-    "main.js.map": "/lyd-studios/static/js/main.a1fabb88.chunk.js.map",
+    "main.css": "/lyd-studios/static/css/main.d0a1aa60.chunk.css",
+    "main.js": "/lyd-studios/static/js/main.8d5e98df.chunk.js",
+    "main.js.map": "/lyd-studios/static/js/main.8d5e98df.chunk.js.map",
     "runtime-main.js": "/lyd-studios/static/js/runtime-main.7c3718d6.js",
     "runtime-main.js.map": "/lyd-studios/static/js/runtime-main.7c3718d6.js.map",
     "static/js/2.c8bdc134.chunk.js": "/lyd-studios/static/js/2.c8bdc134.chunk.js",
@@ -10,11 +10,12 @@
     "static/js/3.04019559.chunk.js": "/lyd-studios/static/js/3.04019559.chunk.js",
     "static/js/3.04019559.chunk.js.map": "/lyd-studios/static/js/3.04019559.chunk.js.map",
     "index.html": "/lyd-studios/index.html",
-    "static/css/main.98b1b728.chunk.css.map": "/lyd-studios/static/css/main.98b1b728.chunk.css.map",
+    "static/css/main.d0a1aa60.chunk.css.map": "/lyd-studios/static/css/main.d0a1aa60.chunk.css.map",
     "static/js/2.c8bdc134.chunk.js.LICENSE.txt": "/lyd-studios/static/js/2.c8bdc134.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lyd-studios/static/media/mtv-upgrade-bold.a60c1924.woff2",
+    "static/media/elipse.0b4a54c9.svg": "/lyd-studios/static/media/elipse.0b4a54c9.svg",
     "static/media/email.67314cbf.svg": "/lyd-studios/static/media/email.67314cbf.svg",
-    "static/media/how.d07d5f70.svg": "/lyd-studios/static/media/how.d07d5f70.svg",
+    "static/media/line-horiz.502850f9.svg": "/lyd-studios/static/media/line-horiz.502850f9.svg",
     "static/media/line.f45f8da3.svg": "/lyd-studios/static/media/line.f45f8da3.svg",
     "static/media/logo.ee14ff61.svg": "/lyd-studios/static/media/logo.ee14ff61.svg",
     "static/media/market_1.ef7b80dd.png": "/lyd-studios/static/media/market_1.ef7b80dd.png",
@@ -28,17 +29,15 @@
     "static/media/studio_3.fa6bb117.png": "/lyd-studios/static/media/studio_3.fa6bb117.png",
     "static/media/telegram.09af4890.svg": "/lyd-studios/static/media/telegram.09af4890.svg",
     "static/media/text-logo-horiz.c483961e.svg": "/lyd-studios/static/media/text-logo-horiz.c483961e.svg",
+    "static/media/text-logo-horiz_footer.05f845e4.png": "/lyd-studios/static/media/text-logo-horiz_footer.05f845e4.png",
     "static/media/text-logo-vert.7476a20b.svg": "/lyd-studios/static/media/text-logo-vert.7476a20b.svg",
     "static/media/text-logo-vert_white.0a3efb47.svg": "/lyd-studios/static/media/text-logo-vert_white.0a3efb47.svg",
-    "static/media/what.2bc50b31.svg": "/lyd-studios/static/media/what.2bc50b31.svg",
-    "static/media/whatsapp.d4a0b7cc.svg": "/lyd-studios/static/media/whatsapp.d4a0b7cc.svg",
-    "static/media/who.4248f44d.svg": "/lyd-studios/static/media/who.4248f44d.svg",
-    "static/media/why.e8a29001.svg": "/lyd-studios/static/media/why.e8a29001.svg"
+    "static/media/whatsapp.d4a0b7cc.svg": "/lyd-studios/static/media/whatsapp.d4a0b7cc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7c3718d6.js",
     "static/js/2.c8bdc134.chunk.js",
-    "static/css/main.98b1b728.chunk.css",
-    "static/js/main.a1fabb88.chunk.js"
+    "static/css/main.d0a1aa60.chunk.css",
+    "static/js/main.8d5e98df.chunk.js"
   ]
 }
