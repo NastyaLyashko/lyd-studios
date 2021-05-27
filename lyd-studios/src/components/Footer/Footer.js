@@ -4,17 +4,13 @@ import telegram from '../../images/telegram.svg';
 import email from '../../images/email.svg';
 import whatsapp from '../../images/whatsapp.svg';
 import scype from '../../images/scype.svg';
-import logo from '../../images/logo.svg';
-import logo_horiz from '../../images/text-logo-horiz.svg';
-import line from '../../images/line.svg';
+import logo_horiz from '../../images/text-logo-horiz_footer.png';
+import line_horiz from '../../images/line-horiz.svg';
 
 function Footer () {
     return(
         <footer className='footer'>
-            <div className='footer__logo-container' >
-                <img className='footer__logo-text' src={logo_horiz} />
-                <img className='footer__logo' src={logo} />
-            </div>
+            <img className='footer__logo-text' src={logo_horiz} />
             <div className='footer__main-container'>
                 <h2 className='footer__subtitle'>For further communication, please, contact us:</h2>
                 <div className='footer__contacts' >
@@ -31,7 +27,7 @@ function Footer () {
                         <img className='footer__contacts-logo' src={scype} alt='Scype'  />
                     </a>
                 </div>
-                <img className='footer__line' src={line}/>
+                <img className='footer__line' src={line_horiz}/>
             </div>
             <NavBar />
         </footer>

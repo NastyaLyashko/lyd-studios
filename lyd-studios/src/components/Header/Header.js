@@ -18,10 +18,7 @@ function Header () {
                 </div>
                 <p className='header__quote'>If you talk to a man in his language, you can get to his heart.<br />
                         <span className='header__quote-author'>(Nelson Mandela)</span></p>
-                <div  className='header__main-container'>
-                    <p className='header__text'>Саня хотел тут какой-то текст, что-то про “мы студия перевода и озвучки из СПб”</p>
-                    <img className='header__img' src={notebook} />
-                </div>
+                <img className='header__img' src={notebook} />
                 <hr className='header__line header__line_blue'></hr>
                 <div className='header__contacts' >
                     <a href="https://telegram.im/@alexoswart" target="_blank">

@@ -1,5 +1,5 @@
 .navbar {
-    background: #000;
+    background: rgb(56, 54, 54);
 }
 
 .navbar__main-container {
@@ -8,13 +8,13 @@
 
 .navbar__links-container {
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
 }
 
 .navbar__logo-container {
     display: flex;
     max-width: calc(100% - 70px);
-    width: 48.5%;
+    width: 100%;
 }
 .navbar__logo {
     max-width: 100px;
@@ -22,29 +22,45 @@
 }
 
 .navbar__logo-text {
-    max-width: 335px;
-    width: 100%;
+    width: 335px;
+    max-width: 100%;
     margin-left: 18px;
 }
 
 .navbar__navigation{
     display: flex;
     flex-direction: column;
-    width: 51.5%;
+    width: 450px;
+    max-width: calc(100% - 70px);
+    list-style-type: none;
+    padding: 0px;
+    display: block;
 }
 
 .navbar__navigation-link {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
+    font-family: "MTV Upgrade Bold";
+    margin-left: 15px;
+}
+
+.navbar__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.navbar__item:last-child {
+    margin-bottom: 0px;
 }
 
 .navbar__copyright-container {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 14px;
     line-height: 1.3;
     align-items: center;
 }

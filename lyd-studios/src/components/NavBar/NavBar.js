@@ -1,10 +1,7 @@
 import './NavBar.css';
 import logo from '../../images/logo.svg';
 import logo_horiz from '../../images/text-logo-horiz.svg';
-import how from '../../images/how.svg';
-import what from '../../images/what.svg';
-import who from '../../images/who.svg';
-import why from '../../images/why.svg';
+import elipse from '../../images/elipse.svg';
 
 function NavBar () {
     return(
@@ -15,20 +12,24 @@ function NavBar () {
                         <img className='navbar__logo' src={logo} />
                         <img className='navbar__logo-text' src={logo_horiz} />
                     </a>
-                    <div className='navbar__navigation' >
-                        <a className='navbar__navigation-link' href='#section1'>
-                            <img src={what} className='navbar__navigation-img' />
-                        </a>
-                        <a className='navbar__navigation-link' href='#section2'>
-                            <img src={how} className='navbar__navigation-img' />
-                        </a>
-                        <a className='navbar__navigation-link' href='#section3'>
-                            <img src={why} className='navbar__navigation-img' />
-                        </a>
-                        <a className='navbar__navigation-link' href='#section4'>
-                            <img src={who} className='navbar__navigation-img' />
-                        </a>
-                    </div>
+                    <ul className='navbar__navigation' >
+                        <li className='navbar__item'>
+                            <img src={elipse} className='navbar__navigation-img' />
+                            <a className='navbar__navigation-link' href='#section1'>WHAT DO WE DO</a>
+                        </li>
+                        <li className='navbar__item'>
+                            <img src={elipse} className='navbar__navigation-img' />
+                            <a className='navbar__navigation-link' href='#section2'>HOW DO WE DO IT</a>
+                        </li>
+                        <li className='navbar__item'>
+                            <img src={elipse} className='navbar__navigation-img' />
+                            <a className='navbar__navigation-link' href='#section3'>WHY DO WE DO IT</a>
+                        </li>
+                        <li className='navbar__item'>
+                            <img src={elipse} className='navbar__navigation-img' />
+                            <a className='navbar__navigation-link' href='#section4'>WHO WE ARE</a>
+                        </li>
+                    </ul>
                 </div>
                 <div className='navbar__copyright-container' >
                     <p>&copy; Lyd Studios   Saint-Petersburg, Russia (2021)</p>
