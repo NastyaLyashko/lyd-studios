@@ -22,12 +22,12 @@
 .header__logo-text {
     max-width: 822px;
     width:  calc(100% - 50px);
-    max-height: 127px;
     align-self: end;
     margin: 0px;
     margin-left: 50px;
     font-family: "MTV Upgrade Bold";
     font-size: 115px;
+    line-height: 1;
     color: #fff;
     text-shadow: 
     -0   -5px 0   #EAA985,
@@ -121,7 +121,7 @@
     font-size: 36px;
     line-height: 93.2%;
     color: #EAA985;
-    margin: 30px auto 400px 180px;
+    margin: 30px 10px 400px 180px;
     letter-spacing: 0.1em;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -135,10 +135,11 @@
 
 .header__img {
     position: absolute;
-    width: 800px;
-    height: 400px;
+    width: 801px;
+    height: 398px;
     right: 0px;
     bottom: 90px;
+    object-fit: contain;
 }
 
 .header__contacts {
@@ -155,4 +156,104 @@
     max-width: 536px;
     margin: 5px 20px;
     align-self: end;
+}
+
+@media (max-width: 1183px) {
+    .header__logo-text {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .header__logo-container {
+        grid-template-rows: 80% 20%;
+    }
+}
+
+@media (max-width: 830px) {
+    .header__img  {
+        width: 600px;
+        height: 300px;
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 790px) {
+    .header__logo-text {
+        font-size: 80px;
+        text-shadow:0px 1px 0 rgb(234,169,133),0px -1px 0 rgb(234,169,133),1px 0px 0 rgb(234,169,133),-1px 0px 0 rgb(234,169,133),1px 1px 0 rgb(234,169,133),1px -1px 0 rgb(234,169,133),-1px 1px 0 rgb(234,169,133),-1px -1px 0 rgb(234,169,133),0px 2px 0 rgb(234,169,133),0px -2px 0 rgb(234,169,133),2px 0px 0 rgb(234,169,133),-2px 0px 0 rgb(234,169,133),2px 2px 0 rgb(234,169,133),2px -2px 0 rgb(234,169,133),-2px 2px 0 rgb(234,169,133),-2px -2px 0 rgb(234,169,133),0px 3px 0 rgb(234,169,133),0px -3px 0 rgb(234,169,133),3px 0px 0 rgb(234,169,133),-3px 0px 0 rgb(234,169,133),3px 3px 0 rgb(234,169,133),3px -3px 0 rgb(234,169,133),-3px 3px 0 rgb(234,169,133),-3px -3px 0 rgb(234,169,133);
+-webkit-text-shadow:0px 1px 0 rgb(234,169,133),0px -1px 0 rgb(234,169,133),1px 0px 0 rgb(234,169,133),-1px 0px 0 rgb(234,169,133),1px 1px 0 rgb(234,169,133),1px -1px 0 rgb(234,169,133),-1px 1px 0 rgb(234,169,133),-1px -1px 0 rgb(234,169,133),0px 2px 0 rgb(234,169,133),0px -2px 0 rgb(234,169,133),2px 0px 0 rgb(234,169,133),-2px 0px 0 rgb(234,169,133),2px 2px 0 rgb(234,169,133),2px -2px 0 rgb(234,169,133),-2px 2px 0 rgb(234,169,133),-2px -2px 0 rgb(234,169,133),0px 3px 0 rgb(234,169,133),0px -3px 0 rgb(234,169,133),3px 0px 0 rgb(234,169,133),-3px 0px 0 rgb(234,169,133),3px 3px 0 rgb(234,169,133),3px -3px 0 rgb(234,169,133),-3px 3px 0 rgb(234,169,133),-3px -3px 0 rgb(234,169,133);
+-moz-text-shadow:0px 1px 0 rgb(234,169,133),0px -1px 0 rgb(234,169,133),1px 0px 0 rgb(234,169,133),-1px 0px 0 rgb(234,169,133),1px 1px 0 rgb(234,169,133),1px -1px 0 rgb(234,169,133),-1px 1px 0 rgb(234,169,133),-1px -1px 0 rgb(234,169,133),0px 2px 0 rgb(234,169,133),0px -2px 0 rgb(234,169,133),2px 0px 0 rgb(234,169,133),-2px 0px 0 rgb(234,169,133),2px 2px 0 rgb(234,169,133),2px -2px 0 rgb(234,169,133),-2px 2px 0 rgb(234,169,133),-2px -2px 0 rgb(234,169,133),0px 3px 0 rgb(234,169,133),0px -3px 0 rgb(234,169,133),3px 0px 0 rgb(234,169,133),-3px 0px 0 rgb(234,169,133),3px 3px 0 rgb(234,169,133),3px -3px 0 rgb(234,169,133),-3px 3px 0 rgb(234,169,133),-3px -3px 0 rgb(234,169,133);
+    }
+
+    .header__logo-container {
+        grid-template-rows: 85% 15%;
+    }
+
+    .header__quote {
+        margin: 30px 10px 240px 80px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 660px) {
+    .header__logo-text {
+        margin-left: 15px;
+    }
+    .header__img  {
+        width: 500px;
+        height: 230px;
+        bottom: 105px;
+    }
+}
+
+@media (max-width: 580px) {
+    .header__container {
+        padding: 10px 15px;
+    }
+
+    .header__logo-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header__logo {
+        width: 130px;
+    }
+
+    .header__line {
+        display: none;
+    }
+
+    .header__img {
+        display: none;
+    }
+
+    .header__logo-text {
+        text-align: center;
+        font-size: 60px;
+        line-height: 1.2;
+        margin: 10px auto 20px;
+        text-shadow:0px 1px 0 rgb(234,169,133),0px -1px 0 rgb(234,169,133),1px 0px 0 rgb(234,169,133),-1px 0px 0 rgb(234,169,133),1px 1px 0 rgb(234,169,133),1px -1px 0 rgb(234,169,133),-1px 1px 0 rgb(234,169,133),-1px -1px 0 rgb(234,169,133),0px 2px 0 rgb(234,169,133),0px -2px 0 rgb(234,169,133),2px 0px 0 rgb(234,169,133),-2px 0px 0 rgb(234,169,133),2px 2px 0 rgb(234,169,133),2px -2px 0 rgb(234,169,133),-2px 2px 0 rgb(234,169,133),-2px -2px 0 rgb(234,169,133);
+-webkit-text-shadow:0px 1px 0 rgb(234,169,133),0px -1px 0 rgb(234,169,133),1px 0px 0 rgb(234,169,133),-1px 0px 0 rgb(234,169,133),1px 1px 0 rgb(234,169,133),1px -1px 0 rgb(234,169,133),-1px 1px 0 rgb(234,169,133),-1px -1px 0 rgb(234,169,133),0px 2px 0 rgb(234,169,133),0px -2px 0 rgb(234,169,133),2px 0px 0 rgb(234,169,133),-2px 0px 0 rgb(234,169,133),2px 2px 0 rgb(234,169,133),2px -2px 0 rgb(234,169,133),-2px 2px 0 rgb(234,169,133),-2px -2px 0 rgb(234,169,133);
+-moz-text-shadow:0px 1px 0 rgb(234,169,133),0px -1px 0 rgb(234,169,133),1px 0px 0 rgb(234,169,133),-1px 0px 0 rgb(234,169,133),1px 1px 0 rgb(234,169,133),1px -1px 0 rgb(234,169,133),-1px 1px 0 rgb(234,169,133),-1px -1px 0 rgb(234,169,133),0px 2px 0 rgb(234,169,133),0px -2px 0 rgb(234,169,133),2px 0px 0 rgb(234,169,133),-2px 0px 0 rgb(234,169,133),2px 2px 0 rgb(234,169,133),2px -2px 0 rgb(234,169,133),-2px 2px 0 rgb(234,169,133),-2px -2px 0 rgb(234,169,133);
+    }
+
+    .header__quote {
+        margin: 0px auto;
+        font-size: 30px;
+        text-align: right;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .header__contacts {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px auto 20px;
+        max-width: 400px;
+    }
+
+    .header__contacts-logo {
+        margin-right: 0px;
+    }
 }
