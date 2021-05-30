@@ -24,12 +24,11 @@ function Market () {
                         you can tap into that customer base.</p>
                     <p className='market__text'>Russian-speaking students are actively searching for high-quality online education, but their efforts are hampered by the lack of localized courses. 
                         “Lyd Studios” offers a partnership that can remedy the content drought felt by many russian-speaking customers.</p>
-                    <div className='market__img-container' >
-                        <img src={market_1} />
-                        <img src={market_2} />
-                    </div>
                 </div>
-
+                <div className='market__img-container' >
+                    <img className='market__img' src={market_1} />
+                    <img className='market__img' src={market_2} />
+                </div>
             </div>
         </section>
     )

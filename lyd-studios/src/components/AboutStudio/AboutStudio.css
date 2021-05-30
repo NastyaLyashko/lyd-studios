@@ -8,7 +8,6 @@
     justify-content: space-between;
     padding: 70px;
     max-width: 1140px;
-    width: 100%;
     margin: auto;
 }
 
@@ -42,8 +41,7 @@
 
 .about-studio__studio-img {
     width: 100%;
-    height: auto;
-    margin: auto;
+    object-fit: cover;
 }
 
 .about-studio__studio-text {
