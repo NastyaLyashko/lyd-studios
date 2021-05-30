@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lyd-studios/static/css/main.d0a1aa60.chunk.css",
-    "main.js": "/lyd-studios/static/js/main.8d5e98df.chunk.js",
-    "main.js.map": "/lyd-studios/static/js/main.8d5e98df.chunk.js.map",
+    "main.css": "/lyd-studios/static/css/main.ab84c78f.chunk.css",
+    "main.js": "/lyd-studios/static/js/main.cad81705.chunk.js",
+    "main.js.map": "/lyd-studios/static/js/main.cad81705.chunk.js.map",
     "runtime-main.js": "/lyd-studios/static/js/runtime-main.7c3718d6.js",
     "runtime-main.js.map": "/lyd-studios/static/js/runtime-main.7c3718d6.js.map",
     "static/js/2.c8bdc134.chunk.js": "/lyd-studios/static/js/2.c8bdc134.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.04019559.chunk.js": "/lyd-studios/static/js/3.04019559.chunk.js",
     "static/js/3.04019559.chunk.js.map": "/lyd-studios/static/js/3.04019559.chunk.js.map",
     "index.html": "/lyd-studios/index.html",
-    "static/css/main.d0a1aa60.chunk.css.map": "/lyd-studios/static/css/main.d0a1aa60.chunk.css.map",
+    "static/css/main.ab84c78f.chunk.css.map": "/lyd-studios/static/css/main.ab84c78f.chunk.css.map",
     "static/js/2.c8bdc134.chunk.js.LICENSE.txt": "/lyd-studios/static/js/2.c8bdc134.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lyd-studios/static/media/mtv-upgrade-bold.a60c1924.woff2",
     "static/media/elipse.0b4a54c9.svg": "/lyd-studios/static/media/elipse.0b4a54c9.svg",
@@ -18,8 +18,8 @@
     "static/media/line-horiz.502850f9.svg": "/lyd-studios/static/media/line-horiz.502850f9.svg",
     "static/media/line.f45f8da3.svg": "/lyd-studios/static/media/line.f45f8da3.svg",
     "static/media/logo.ee14ff61.svg": "/lyd-studios/static/media/logo.ee14ff61.svg",
-    "static/media/market_1.ef7b80dd.png": "/lyd-studios/static/media/market_1.ef7b80dd.png",
-    "static/media/market_2.ebd248e0.png": "/lyd-studios/static/media/market_2.ebd248e0.png",
+    "static/media/market_1.7f663e21.png": "/lyd-studios/static/media/market_1.7f663e21.png",
+    "static/media/market_2.9973b6de.png": "/lyd-studios/static/media/market_2.9973b6de.png",
     "static/media/notebook.6845f173.svg": "/lyd-studios/static/media/notebook.6845f173.svg",
     "static/media/portret_1.04bed922.png": "/lyd-studios/static/media/portret_1.04bed922.png",
     "static/media/portret_2.b8c4966f.png": "/lyd-studios/static/media/portret_2.b8c4966f.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.7c3718d6.js",
     "static/js/2.c8bdc134.chunk.js",
-    "static/css/main.d0a1aa60.chunk.css",
-    "static/js/main.8d5e98df.chunk.js"
+    "static/css/main.ab84c78f.chunk.css",
+    "static/js/main.cad81705.chunk.js"
   ]
 }
