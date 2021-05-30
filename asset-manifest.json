@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lyd-studios/static/css/main.ab84c78f.chunk.css",
+    "main.css": "/lyd-studios/static/css/main.11edbe22.chunk.css",
     "main.js": "/lyd-studios/static/js/main.cad81705.chunk.js",
     "main.js.map": "/lyd-studios/static/js/main.cad81705.chunk.js.map",
     "runtime-main.js": "/lyd-studios/static/js/runtime-main.7c3718d6.js",
@@ -10,7 +10,7 @@
     "static/js/3.04019559.chunk.js": "/lyd-studios/static/js/3.04019559.chunk.js",
     "static/js/3.04019559.chunk.js.map": "/lyd-studios/static/js/3.04019559.chunk.js.map",
     "index.html": "/lyd-studios/index.html",
-    "static/css/main.ab84c78f.chunk.css.map": "/lyd-studios/static/css/main.ab84c78f.chunk.css.map",
+    "static/css/main.11edbe22.chunk.css.map": "/lyd-studios/static/css/main.11edbe22.chunk.css.map",
     "static/js/2.c8bdc134.chunk.js.LICENSE.txt": "/lyd-studios/static/js/2.c8bdc134.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lyd-studios/static/media/mtv-upgrade-bold.a60c1924.woff2",
     "static/media/elipse.0b4a54c9.svg": "/lyd-studios/static/media/elipse.0b4a54c9.svg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.7c3718d6.js",
     "static/js/2.c8bdc134.chunk.js",
-    "static/css/main.ab84c78f.chunk.css",
+    "static/css/main.11edbe22.chunk.css",
     "static/js/main.cad81705.chunk.js"
   ]
 }
