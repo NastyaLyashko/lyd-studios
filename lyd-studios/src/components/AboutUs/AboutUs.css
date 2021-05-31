@@ -9,6 +9,7 @@
 .about-us__main-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -17,6 +18,7 @@
     font-size: 24px;
     line-height: 1.3;
     text-align: center;
+    margin: 10px auto;
 }
 
 .about-us__portrets {
@@ -24,7 +26,7 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, calc(50% - 50px));
-    grid-template-rows: 400px 30px;
+    grid-template-rows: 1fr 30px 30px;
     gap: 0px 100px;
     align-items: center;
 }
@@ -36,6 +38,7 @@
 }
 
 .about-us__portret-description {
+    color: #94B5C3;
     margin: 0px;
     max-width: 390px;
     width: 100%;
@@ -44,22 +47,21 @@
 }
 
 .about-us__line {
-    transform: rotate(90deg);
-    width: 32px;
-    height: 799px;
-    position: absolute;
-    top: 160px;
-    right: calc(50% - 24px);
+    align-self: center;
+    margin: 0px auto;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    max-width: 100%;
 }
 
 .about-us__text-container {
     display: flex;
     justify-content: space-between;
-    margin: 70px auto 0px;
+    margin: 20px auto 0px;
 }
 
 .about-us__text {
-    color: #6695AA;
+    color: rgb(56, 54, 54);
     width: 33%;
     margin: 0px 45px 0px 0px;
     font-size: 21px;
@@ -68,7 +70,7 @@
 }
 
 .about-us__text:last-child {
-    margin: 0px;
+    margin-right: 0px;
 
 }
 
@@ -90,6 +92,12 @@
 }
 
 
+@media (max-width: 1186px) {
+    .about-us{
+        padding: 30px 35px;
+    }
+}
+
 @media (max-width: 1050px) {
     .about-us__logo-container{
         margin-left: 15px;
@@ -102,10 +110,29 @@
     .about-us__logo-text {
         max-width: 45px;
     }
+
+    .about-us__portrets {
+        column-gap: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, calc(50% - 30px));
+        grid-template-rows: 1fr 20px 20px;
+    }
+
+    .about-us__text {
+        font-size: 20px;
+        line-height: 1.1;
+        margin-right: 20px;
+    }
 }
 
 
 @media (max-width: 790px) {
+    .about-us__title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.1;
+    }
+
     .about-us__logo {
         width: 80px;
     }
@@ -114,9 +141,34 @@
         max-width: 40px;
         margin-bottom: 20px;
     }
+
+    .about-us__portrets {
+        column-gap: 20px;
+        grid-template-columns: repeat(2, calc(50% - 10px));
+    }
+
+    .about-us__text-container {
+        flex-direction: column;
+    }
+
+    .about-us__text {
+        width: 100%;
+        margin: 0px auto 10px;
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 580px) {
+    .about-us{
+        padding: 10px 15px;
+        flex-direction: column-reverse;
+    }
+
+    .about-us__title {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
     .about-us__logo-text {
         display: none;
     }
@@ -124,4 +176,15 @@
     .about-us__logo-container {
         margin: auto;
     }
+
+
+    .about-us__portrets {
+        column-gap: 10px;
+        grid-template-columns: repeat(2, calc(50% - 5px));
+    }
+
+    .about-us__text {
+
+    }
+
 }

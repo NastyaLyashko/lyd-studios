@@ -47,7 +47,7 @@
     margin: 10px auto;
 }
 
-@media (max-width: 1183px) {
+@media (max-width: 1186px) {
     .market__main-container {
         padding: 30px 35px;
     }
@@ -95,7 +95,6 @@
         max-width: 40%;
     }
 }
-
 
 @media (max-width: 580px) {
     .market__main-container {

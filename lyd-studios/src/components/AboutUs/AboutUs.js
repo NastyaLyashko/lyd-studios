@@ -1,6 +1,6 @@
 import './AboutUs.css';
 import logo from '../../images/logo.svg';
-import line from '../../images/line.svg';
+import line from '../../images/line-horiz.svg';
 import logo_vert_white from '../../images/text-logo-vert_white.svg';
 import portret_1 from '../../images/portret_1.png';
 import portret_2 from '../../images/portret_2.png';
@@ -14,10 +14,10 @@ function AboutUs () {
                 <div className='about-us__portrets'>
                     <img className='about-us__portret' src={portret_2} alt='Aleksei Radzhabov' />
                     <img className='about-us__portret' src={portret_1} alt='Alexander Petrov'/>
+                    <img className='about-us__line' src={line}/>
                     <p className='about-us__portret-description'>Aleksei Radzhabov</p>
                     <p className='about-us__portret-description'>Alexander Petrov</p>
                 </div>
-                <img className='about-us__line' src={line}/>
                 <div className='about-us__text-container'>
                     <p className='about-us__text'> We are skilled in doing voice-over, recording various programs and podcasts. 
                         Aleksei and Alexander are winners and two-time nominees for a national award of the Russian Academy of Radio “Golden Microphone”.</p>

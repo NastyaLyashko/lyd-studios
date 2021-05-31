@@ -55,7 +55,7 @@
     max-height: 140px;
 }
 
-@media (max-width: 1183px) {
+@media (max-width: 1186px) {
     .about-studio__container {
         padding: 30px 35px;
     }
@@ -108,6 +108,10 @@
 }
 
 @media (max-width: 580px) {
+    .about-studio__studio-text {
+        color: #fff;
+    }
+
     .about-studio__container {
         flex-direction: column;
         padding: 10px 15px;

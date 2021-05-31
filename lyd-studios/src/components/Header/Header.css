@@ -158,7 +158,7 @@
     align-self: end;
 }
 
-@media (max-width: 1183px) {
+@media (max-width: 1186px) {
     .header__logo-text {
         font-size: 100px;
     }
