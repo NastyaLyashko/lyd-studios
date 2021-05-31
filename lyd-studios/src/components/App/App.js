@@ -11,19 +11,19 @@ import Footer from '../Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <ScrollableAnchor id={'section0'} >
+      <ScrollableAnchor id={'LydStudios'} >
         <div><Header /></div>
       </ScrollableAnchor>
-      <ScrollableAnchor id={'section1'} >
+      <ScrollableAnchor id={'WhatDoWeDo'} >
         <div><AboutStudio /></div>
       </ScrollableAnchor>
-      <ScrollableAnchor id={'section2'} >
+      <ScrollableAnchor id={'HowDoWeDoIt'} >
         <div><Video /></div>
       </ScrollableAnchor>
-      <ScrollableAnchor id={'section3'} >
+      <ScrollableAnchor id={'WhyDoWeDoIt'} >
         <div><Market /></div>
       </ScrollableAnchor>
-      <ScrollableAnchor id={'section4'} >
+      <ScrollableAnchor id={'WhoWeAre'} >
         <div><AboutUs /></div>
       </ScrollableAnchor>
       <Footer />

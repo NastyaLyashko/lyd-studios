@@ -8,26 +8,26 @@ function NavBar () {
         <section className='navbar'>
             <div className='navbar__main-container'>
                 <div className='navbar__links-container'>
-                    <a className='navbar__logo-container' href='#section0' >
+                    <a className='navbar__logo-container' href='#LydStudios' >
                         <img className='navbar__logo' src={logo} />
                         <img className='navbar__logo-text' src={logo_horiz} />
                     </a>
                     <ul className='navbar__navigation' >
                         <li className='navbar__item'>
                             <img src={elipse} className='navbar__navigation-img' />
-                            <a className='navbar__navigation-link' href='#section1'>WHAT DO WE DO</a>
+                            <a className='navbar__navigation-link' href='#WhatDoWeDo'>WHAT DO WE DO</a>
                         </li>
                         <li className='navbar__item'>
                             <img src={elipse} className='navbar__navigation-img' />
-                            <a className='navbar__navigation-link' href='#section2'>HOW DO WE DO IT</a>
+                            <a className='navbar__navigation-link' href='#HowDoWeDoIt'>HOW DO WE DO IT</a>
                         </li>
                         <li className='navbar__item'>
                             <img src={elipse} className='navbar__navigation-img' />
-                            <a className='navbar__navigation-link' href='#section3'>WHY DO WE DO IT</a>
+                            <a className='navbar__navigation-link' href='#WhyDoWeDoIt'>WHY DO WE DO IT</a>
                         </li>
                         <li className='navbar__item'>
                             <img src={elipse} className='navbar__navigation-img' />
-                            <a className='navbar__navigation-link' href='#section4'>WHO WE ARE</a>
+                            <a className='navbar__navigation-link' href='#WhoWeAre'>WHO WE ARE</a>
                         </li>
                     </ul>
                 </div>
