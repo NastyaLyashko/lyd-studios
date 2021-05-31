@@ -4,35 +4,19 @@
 }
 
 .market__main-container {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 70px;
     max-width: 1140px;
-    height: 1024px;
     margin: auto;
 }
 
-.market__logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.market__logo-text {
-    max-width: 59px;
-    margin-top: 35px;
-}
-
-.market__logo {
-    max-width: 140px;
-    max-height: 140px;
-}
-
 .market__text-container {
-    width: 100%;
-    max-width: 420px;
-    margin: 70px auto;
+    width: 40%;
+    max-width: 500px;
+    margin: 50px 20px 0px 0px;
     display: flex;
     flex-direction: column;
 }
@@ -41,7 +25,7 @@
     font-size: 20px;
     line-height: 1.3;
     text-align: justify;
-    margin: 0px 20px 25px 20px;
+    margin: 0px 0px 15px;
     color: #fff;
 }
 
@@ -50,15 +34,71 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 455px;
-    height: 800px;
-    margin: 70px auto;
+    width: 40%;
+
+    margin: auto;
 }
 
 .market__img {
-    object-fit: cover;  
+    object-fit: contain;  
     display: block;
     width: 100%;
+    max-width: 455px;
+    margin: 10px auto;
+}
 
+@media (max-width: 1183px) {
+    .market__main-container {
+        padding: 30px 35px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .market__text {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .market__text-container {
+        width: 50%;
+    }
+
+    .market__img-container {
+        width: 30%;
+    }
+}
+
+@media (max-width: 790px) {
+    .market__main-container {
+        flex-direction: column;
+    }
+    .market__logo-text {
+        display: none;
+    }
+    .market__text-container {
+        margin: 20px auto 0px;
+        width: 100%;
+        max-width: none;
+    }
+    .market__text {
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+
+    .market__img-container {
+        flex-direction: row;
+        margin: auto;
+        width: 100%;
+    }
+
+    .market__img {
+        max-width: 40%;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .market__main-container {
+        padding: 10px 15px;
+    }
 }
