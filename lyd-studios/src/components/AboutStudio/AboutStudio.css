@@ -87,7 +87,6 @@
     }
 }
 
-
 @media (max-width: 790px) {
     .about-studio__logo {
         width: 80px;
@@ -126,9 +125,7 @@
         margin-top: 0px;
     }
 
-    .about-studio__logo-container {
-        margin: auto;
-    }
+
 
     .about-studio__studio-img {
         margin: 10px auto;

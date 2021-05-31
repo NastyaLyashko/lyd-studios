@@ -7,7 +7,15 @@ function Video () {
         <section className='video'>
             <div className='video__container' >
                 <h2 className='video__title'>Here’s a video, showcasing our studio equipment.</h2>
-                <iframe className='video__youtube' id="ytplayer" type="text/html" src="https://www.youtube.com/embed/vhp7gxVKNAU" frameborder="0" allowfullscreen></iframe>
+                <div className='video__youtube'>
+                    <iframe className='video__iframe' width="560" height="315" 
+                            src="https://www.youtube.com/embed/vhp7gxVKNAU" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
+                
                 <p className='video__text'>We have professional gear installed and ready to use, which allows us to quickly deliver high-quality product.</p>
             </div>
             <div className='about-us__logo-container'>
