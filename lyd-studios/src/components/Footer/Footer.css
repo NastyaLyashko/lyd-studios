@@ -14,12 +14,13 @@
 
 .footer__main-container {
     max-width: 1140px;
-    width: 100%;
     margin: auto;
     position: relative;
 }
 
 .footer__subtitle {
+    font-size: 24px;
+    line-height: 1.2;
     margin: auto;
     width: 100%;
     max-width: 530px;
@@ -31,12 +32,36 @@
     margin: 110px auto 100px;
     justify-content: space-between;
     max-width: 780px;
+    width: 100%;
 }
 
 .footer__line {
     display: block;
     height: 32px;
-    width: 799px;
+    width: 100%;
     margin: 0px auto 100px;
+}
 
+@media (max-width: 1186px) {
+    .footer__logo-text{
+        padding: 30px 35px;
+    }
+
+    .footer__main-container {
+        padding: 0px 35px;
+    }
+}
+
+@media (max-width: 580px) {
+    .footer__main-container {
+        padding: 0px 15px;
+    }
+
+    .footer__contacts {
+        margin: 40px auto;
+    }
+
+    .footer__line {
+        margin-bottom: 40px;
+    }
 }

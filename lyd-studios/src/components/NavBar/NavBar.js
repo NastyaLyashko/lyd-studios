@@ -32,8 +32,8 @@ function NavBar () {
                     </ul>
                 </div>
                 <div className='navbar__copyright-container' >
-                    <p>&copy; Lyd Studios   Saint-Petersburg, Russia (2021)</p>
-                    <p  className='navbar__copyright-text'>All rights reserved. Our website services, content and products are for informational purposes only.</p>
+                    <p className='navbar__copyright'>&copy; Lyd Studios   Saint-Petersburg, Russia (2021)</p>
+                    <p className='navbar__copyright-text'>All rights reserved. Our website services, content and products are for informational purposes only.</p>
                 </div>
             </div>
         </section>
