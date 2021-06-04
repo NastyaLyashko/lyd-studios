@@ -19,15 +19,19 @@ function Market () {
                     <p className='market__text'>The largest russian online platforms offer their students hundreds of different courses - from “searching for the meaning of life” to “international marketing”. 
                         One website, offering IT courses, has already brought more than 4 million users, hundreds of thousands study daily on different platforms. 
                         It is safe to say that 20% of russian education market accounts for online courses, 80% of which are owned by private companies.</p>
+                    <div className='market__img-container market__img-container_center' >
+                        <img className='market__img' src={market_1}  alt=''/>
+                        <img className='market__img' src={market_2}  alt=''/>
+                    </div>
                     <p className='market__text'>At the same time, russian people prefer being educated in their language. After analyzing incoming traffic on the “Coursera” website, 
                         with more than 300 000 users, it became apparent that 50% of people purchase courses in russian. The thing is - there are only 200 of those there. With our help, 
                         you can tap into that customer base.</p>
                     <p className='market__text'>Russian-speaking students are actively searching for high-quality online education, but their efforts are hampered by the lack of localized courses. 
                         “Lyd Studios” offers a partnership that can remedy the content drought felt by many russian-speaking customers.</p>
                 </div>
-                <div className='market__img-container' >
-                    <img className='market__img' src={market_1} />
-                    <img className='market__img' src={market_2} />
+                <div className='market__img-container market__img-container_bottom' >
+                    <img className='market__img' src={market_1}  alt=''/>
+                    <img className='market__img' src={market_2}  alt=''/>
                 </div>
             </div>
         </section>

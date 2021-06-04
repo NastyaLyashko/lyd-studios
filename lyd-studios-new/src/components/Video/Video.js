@@ -11,9 +11,9 @@ function Video () {
                     <iframe className='video__iframe' width="560" height="315" 
                             src="https://www.youtube.com/embed/vhp7gxVKNAU" 
                             title="YouTube video player" 
-                            frameborder="0" 
+                            frameBorder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen></iframe>
+                            allowFullScreen></iframe>
                 </div>
                 
                 <p className='video__text'>We have professional gear installed and ready to use, which allows us to quickly deliver high-quality product.</p>

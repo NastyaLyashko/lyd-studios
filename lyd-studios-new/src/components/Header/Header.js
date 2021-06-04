@@ -2,7 +2,6 @@ import './Header.css';
 import telegram from '../../images/telegram.svg';
 import email from '../../images/email.svg';
 import whatsapp from '../../images/whatsapp.svg';
-import scype from '../../images/scype.svg';
 import logo from '../../images/logo.svg';
 import logo_horiz from '../../images/text-logo-horiz.svg';
 import notebook from '../../images/notebook.svg';
@@ -13,25 +12,22 @@ function Header () {
             <div className='header__container'>
                 <div className='header__logo-container' >
                     <h1 className='header__logo-text' src={logo_horiz}>LYD STUDIOS</h1>
-                    <img className='header__logo' src={logo} />
+                    <img className='header__logo' src={logo}  alt='logo' />
                     <hr className='header__line header__line_orange'></hr>
                 </div>
                 <p className='header__quote'>If you talk to a man in his language, you can get to his heart.<br />
                         <span className='header__quote-author'>(Nelson Mandela)</span></p>
-                <img className='header__img' src={notebook} />
+                <img className='header__img' src={notebook}  alt='' />
                 <hr className='header__line header__line_blue'></hr>
                 <div className='header__contacts' >
-                    <a href="https://telegram.im/@alexoswart" target="_blank">
-                        <img className='header__contacts-logo' src={telegram} alt=''  />
+                    <a href="https://telegram.im/@lydstudios" target="_blank" rel="noreferrer">
+                        <img className='header__contacts-logo' src={telegram} alt='telegram'  />
                     </a>
-                    <a href="mailto:someone@example.com">
-                        <img className='header__contacts-logo' src={email} alt=''  />
+                    <a href="mailto:info@lydstudios.com">
+                        <img className='header__contacts-logo' src={email} alt='email'  />
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=79111274967">
-                        <img className='header__contacts-logo' src={whatsapp} alt=''  />
-                    </a>
-                    <a href="mailto:someone@example.com">
-                        <img className='header__contacts-logo' src={scype} alt=''  />
+                    <a href="https://api.whatsapp.com/send?phone=79117650135">
+                        <img className='header__contacts-logo' src={whatsapp} alt='whatsapp'  />
                     </a>
                 </div>
             </div>

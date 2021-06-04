@@ -14,7 +14,7 @@ function AboutUs () {
                 <div className='about-us__portrets'>
                     <img className='about-us__portret' src={portret_2} alt='Aleksei Radzhabov' />
                     <img className='about-us__portret' src={portret_1} alt='Alexander Petrov'/>
-                    <img className='about-us__line' src={line}/>
+                    <img className='about-us__line' src={line} alt='' />
                     <p className='about-us__portret-description'>Aleksei Radzhabov</p>
                     <p className='about-us__portret-description'>Alexander Petrov</p>
                 </div>

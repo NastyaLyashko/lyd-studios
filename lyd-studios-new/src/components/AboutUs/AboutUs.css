@@ -45,6 +45,8 @@
     width: 100%;
     margin: 0px auto;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .about-us__line {
@@ -183,9 +185,4 @@
         column-gap: 10px;
         grid-template-columns: repeat(2, calc(50% - 5px));
     }
-
-    .about-us__text {
-
-    }
-
 }

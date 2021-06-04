@@ -35,13 +35,15 @@
     justify-content: space-between;
     align-items: center;
     width: 40%;
-
     margin: auto;
+}
+
+.market__img-container_center {
+    display: none;
 }
 
 .market__img {
     object-fit: contain;  
-    display: block;
     width: 100%;
     max-width: 455px;
     margin: 10px auto;
@@ -100,4 +102,19 @@
     .market__main-container {
         padding: 10px 15px;
     }
+}
+
+@media (max-width: 500px) {
+    .market__img-container_center {
+        display: flex;
+    }
+
+    .market__img-container_bottom {
+        display: none;
+    }
+
+    .market__img {
+        margin: 0px auto 5px;
+    }
+
 }

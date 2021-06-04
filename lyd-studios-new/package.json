@@ -1,5 +1,4 @@
 {
-  "homepage": "https://nastyalyashko.github.io/lyd-studios",
   "name": "lyd-studio",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +15,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "deploy": "npm run build && scp -r ./build/* lyashkoay@84.252.140.96:/home/lyashkoay/frontend",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "ghdeploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

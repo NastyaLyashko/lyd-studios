@@ -9,24 +9,24 @@ function NavBar () {
             <div className='navbar__main-container'>
                 <div className='navbar__links-container'>
                     <a className='navbar__logo-container' href='#LydStudios' >
-                        <img className='navbar__logo' src={logo} />
-                        <img className='navbar__logo-text' src={logo_horiz} />
+                        <img className='navbar__logo' src={logo} alt='logo' />
+                        <img className='navbar__logo-text' src={logo_horiz}  alt='logo' />
                     </a>
                     <ul className='navbar__navigation' >
                         <li className='navbar__item'>
-                            <img src={elipse} className='navbar__navigation-img' />
+                            <img src={elipse} className='navbar__navigation-img' alt='' />
                             <a className='navbar__navigation-link' href='#WhatDoWeDo'>WHAT DO WE DO</a>
                         </li>
                         <li className='navbar__item'>
-                            <img src={elipse} className='navbar__navigation-img' />
+                            <img src={elipse} className='navbar__navigation-img' alt='' />
                             <a className='navbar__navigation-link' href='#HowDoWeDoIt'>HOW DO WE DO IT</a>
                         </li>
                         <li className='navbar__item'>
-                            <img src={elipse} className='navbar__navigation-img' />
+                            <img src={elipse} className='navbar__navigation-img' alt='' />
                             <a className='navbar__navigation-link' href='#WhyDoWeDoIt'>WHY DO WE DO IT</a>
                         </li>
                         <li className='navbar__item'>
-                            <img src={elipse} className='navbar__navigation-img' />
+                            <img src={elipse} className='navbar__navigation-img' alt='' />
                             <a className='navbar__navigation-link' href='#WhoWeAre'>WHO WE ARE</a>
                         </li>
                     </ul>
