@@ -20,13 +20,11 @@ function AboutStudio () {
                     <p className='about-studio__studio-text'>With a decade of experience, we are proficient in anything sound-related: 
                         from clearing up recorded audio, to doing voice-over in the first place.</p>
                     <p className='about-studio__studio-text'>We have multiple studios, which means we can work on several projects at once. 
-                        Or finish one project much faster!
-</p>
+                        Or finish one project much faster!</p>
                     <img className='about-studio__studio-img' src={studio_2}  alt='Our studio' />
                     <img className='about-studio__studio-img' src={studio_3}  alt='Our studio' />
                     <p className='about-studio__studio-text'>Even though we're new to localization business, we are by no means new to the whole process. 
-                        Still, we are looking for long-term partners and are eager to offer highly lucrative options.
-</p>
+                        Still, we are looking for long-term partners and are eager to offer highly lucrative options.</p>
                 </div>
             </div>
         </section>

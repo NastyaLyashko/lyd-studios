@@ -6,9 +6,21 @@ import AboutStudio from '../AboutStudio/AboutStudio';
 import Market from '../Market/Market';
 import AboutUs from '../AboutUs/AboutUs';
 import Video from '../Video/Video';
+import VideoPopup from '../VideoPopup/VideoPopup';
 import Footer from '../Footer/Footer';
 
 function App() {
+
+  const [selectedVideo, setSelectedVideo] = React.useState(null);
+
+  function handleVideoClick(video) {
+      setSelectedVideo(video)
+  }
+
+  function closePopup() {
+    setSelectedVideo(null)
+}
+
   return (
     <div className="App">
       <ScrollableAnchor id={'LydStudios'} >
@@ -18,7 +30,7 @@ function App() {
         <div><AboutStudio /></div>
       </ScrollableAnchor>
       <ScrollableAnchor id={'HowDoWeDoIt'} >
-        <div><Video /></div>
+        <div><Video onImgClick={handleVideoClick} /></div>
       </ScrollableAnchor>
       <ScrollableAnchor id={'WhyDoWeDoIt'} >
         <div><Market /></div>
@@ -27,6 +39,8 @@ function App() {
         <div><AboutUs /></div>
       </ScrollableAnchor>
       <Footer />
+      <VideoPopup video={selectedVideo}
+                  onClose={closePopup} />
     </div>
   );
 }

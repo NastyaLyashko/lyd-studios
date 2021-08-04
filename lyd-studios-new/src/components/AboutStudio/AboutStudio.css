@@ -88,6 +88,11 @@
 }
 
 @media (max-width: 790px) {
+
+    .about-studio__logo-container{
+        margin-right: 0px;
+    }
+
     .about-studio__logo {
         width: 80px;
     }
@@ -99,6 +104,10 @@
 
     .about-studio__grid {
         column-gap: 50px;
+    }
+
+    .about-studio__line {
+        right: calc(50% - 7.5px);
     }
 
     .about-studio__studio-text {
