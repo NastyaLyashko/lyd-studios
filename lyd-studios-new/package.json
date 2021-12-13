@@ -12,10 +12,11 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "4.0.3",
     "react-scrollable-anchor": "^0.6.1",
+    "save-dev": "0.0.1-security",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "deploy": "npm run build && scp -r ./build/* lyashkoay@84.252.140.96:/home/lyashkoay/frontend",
+    "deploy": "npm run build && scp -r ./build/* lyashkoay@178.154.193.245:/home/lyashkoay/frontend",
     "predeploy": "npm run build",
     "ghdeploy": "gh-pages -d build",
     "start": "react-scripts start",

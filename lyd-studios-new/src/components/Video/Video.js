@@ -5,7 +5,7 @@ import logo_vert_white from '../../images/text-logo-vert_white.svg';
 import line from '../../images/line.svg';
 import Hadfield from '../../images/Hadfield.png';
 import Lynch from '../../images/Lynch.png';
-import Photography from '../../images/PHOTOGRAPHY.png';
+// import Photography from '../../images/PHOTOGRAPHY.png';
 
 function Video ({ onImgClick }) {
 
@@ -14,10 +14,10 @@ function Video ({ onImgClick }) {
         title: 'David Lynch Teaches Creativity and Film (Official trailer) [LYD Studios]',
     }
 
-    const video2 = {
-        link: 'https://www.youtube.com/embed/vhp7gxVKNAU',
-        title: 'Photography basics in 10 minutes (Fragment) [LYD Studios]',
-    }
+//    const video2 = {
+//        link: 'https://www.youtube.com/embed/vhp7gxVKNAU',
+//        title: 'Photography basics in 10 minutes (Fragment) [LYD Studios]',
+//    } 
 
     const video3 = {
         link: 'https://www.youtube.com/embed/wQ58lt8XyGc',
@@ -47,8 +47,8 @@ function Video ({ onImgClick }) {
                     <h3 className='video__subtitle'>Examples of our work:</h3>
                     <img className='video__img' src={Lynch} alt='' onClick={()=> handleClick(video1)}/>
                     <p className="video__caption">{video1.title}</p>
-                    <img className='video__img' src={Photography} alt='' onClick={()=> handleClick(video2)}/>
-                    <p className="video__caption">{video2.title}</p>
+                    {/*   <img className='video__img' src={Photography} alt='' onClick={()=> handleClick(video2)}/> 
+                    <p className="video__caption">{video2.title}</p> */}
                     <img className='video__img' src={Hadfield} alt='' onClick={()=> handleClick(video3)}/>
                     <p className="video__caption">{video3.title}</p>
                 </div>
