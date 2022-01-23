@@ -1,0 +1,33 @@
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    width: 140px;
+}
+
+.logo-container_dark {
+    flex-direction: column-reverse;
+    margin: 0px 15px 0px 0px;
+}
+
+.logo-text {
+    font-family: "MTV Upgrade Bold";
+    font-size: 80px;
+    line-height: 1;
+    color: #fff;
+    -webkit-text-stroke: 3.5px #EAA985;
+    margin: 0px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.logo-text_dark {
+    color: #6695AA;
+    margin-top: 15px;
+}
+
+.logo-img {
+    width: 140px;
+    height: 140px;
+}

@@ -1,6 +1,5 @@
 import './NavBar.css';
 import logo from '../../images/logo.svg';
-import logo_horiz from '../../images/text-logo-horiz.svg';
 import elipse from '../../images/elipse.svg';
 
 function NavBar () {
@@ -10,7 +9,7 @@ function NavBar () {
                 <div className='navbar__links-container'>
                     <a className='navbar__logo-container' href='#LydStudios' >
                         <img className='navbar__logo' src={logo} alt='logo' />
-                        <img className='navbar__logo-text' src={logo_horiz}  alt='logo' />
+                        <h3 className='navbar__logo-text' >LYD STUDIOS</h3>
                     </a>
                     <ul className='navbar__navigation' >
                         <li className='navbar__item'>

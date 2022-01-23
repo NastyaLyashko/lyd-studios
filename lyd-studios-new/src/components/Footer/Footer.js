@@ -3,14 +3,13 @@ import NavBar from '../NavBar/NavBar';
 import telegram from '../../images/telegram.svg';
 import email from '../../images/email.svg';
 import whatsapp from '../../images/whatsapp.svg';
-import logo_horiz from '../../images/text-logo-horiz_footer.png';
-import line_horiz from '../../images/line-horiz.svg';
+import Line from '../Line/Line';
 
 function Footer () {
     return(
         <footer className='footer'>
-            <img className='footer__logo-text' src={logo_horiz}  alt='logo' />
             <div className='footer__main-container'>
+            <h3 className='footer__logo-text' >LYD STUDIOS</h3>
                 <h2 className='footer__subtitle'>For further communication, please, contact us:</h2>
                 <div className='footer__contacts' >
                     <a href="https://telegram.im/@lydstudios" target="_blank" rel="noreferrer">
@@ -23,7 +22,7 @@ function Footer () {
                         <img className='footer__contacts-logo' src={whatsapp} alt='WhatsApp'  />
                     </a>
                 </div>
-                <img className='footer__line' src={line_horiz}  alt='logo' />
+                <Line vertical={false} />
             </div>
             <NavBar />
         </footer>

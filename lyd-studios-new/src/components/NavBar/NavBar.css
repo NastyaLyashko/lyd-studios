@@ -16,6 +16,7 @@
 .navbar__logo-container {
     display: flex;
     margin: auto 0px;
+    text-decoration: none;
 }
 .navbar__logo {
     max-width: 100px;
@@ -24,8 +25,12 @@
 
 .navbar__logo-text {
     max-width: 335px;
-    width: 100%;
-    margin-left: 18px;
+    font-family: "MTV Upgrade Bold";
+    font-size: 57px;
+    line-height: 1;
+    color: #fff;
+    -webkit-text-stroke: 2px #EAA985;
+
 }
 
 .navbar__navigation {

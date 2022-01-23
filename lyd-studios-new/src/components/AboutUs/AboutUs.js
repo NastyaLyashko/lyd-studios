@@ -1,9 +1,8 @@
 import './AboutUs.css';
-import logo from '../../images/logo.svg';
-import line from '../../images/line-horiz.svg';
-import logo_vert_white from '../../images/text-logo-vert_white.svg';
+import Line from '../Line/Line';
 import portret_1 from '../../images/portret_1.png';
 import portret_2 from '../../images/portret_2.png';
+import Logo from '../Logo/Logo';
 
 function AboutUs () {
     return(
@@ -14,7 +13,9 @@ function AboutUs () {
                 <div className='about-us__portrets'>
                     <img className='about-us__portret' src={portret_2} alt='Aleksei Radzhabov' />
                     <img className='about-us__portret' src={portret_1} alt='Alexander Petrov'/>
-                    <img className='about-us__line' src={line} alt='' />
+                    <div className='about-us__line'>
+                        <Line vertical={false} />
+                    </div>                    
                     <p className='about-us__portret-description'>Aleksei Radzhabov</p>
                     <p className='about-us__portret-description'>Alexander Petrov</p>
                 </div>
@@ -27,10 +28,7 @@ function AboutUs () {
                         He is proficient in the language and right now he is engaged part-time with an international educational company as a teacher of English as a foreign language.</p>
                 </div>
             </div>
-            <div className='about-us__logo-container'>
-                <img className='about-us__logo-text' src={logo_vert_white} alt='logo'/>
-                <img className='about-us__logo' src={logo} alt='logo' />
-            </div>
+            <Logo darkTheme={false}/>
         </section>
     )
 }

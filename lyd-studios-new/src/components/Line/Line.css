@@ -1,0 +1,12 @@
+.line {
+    background: url(../../images/line-horiz.svg);
+    width: 799px;
+    height: 32px;
+    margin: 0px auto;
+}
+
+.line_vertical {
+    background: url(../../images/line.svg);
+    width: 32px;
+    height: 799px;
+}

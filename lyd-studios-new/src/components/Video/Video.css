@@ -5,49 +5,47 @@
     margin: auto;
     padding: 70px;
     max-width: 1140px;
+    max-height: 1035px;
 }
 
 .video__container {
     position: relative;
     display: grid;
-    grid-template-columns: calc(70% - 90px) 30%;
+    grid-template-rows: 57% 3% 40%;
     column-gap: 90px;
-    align-items: center;
+    align-items:flex-start;
 }
 
 .video__title {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 40px;
     line-height: 1.3;
     color: #94B5C3;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 .video__line {
-    position: absolute;
-    right: calc(30% + 29px);
+    background: url(../../images/line-horiz.svg);
+    width: 799px;
+    height: 32px;
+    margin: 15px auto;
 }
 
 .video__studio-container {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
 }
 
 .video__youtube {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 40%;
     height: 0;
-    margin: 50px 0px;
 }
 
 .video__iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(100% - 6px);
-    height: 100%;
+    margin: auto;
     border: 3px solid #EAA985;
     border-radius: 15px;
     outline-width: 0;
@@ -55,26 +53,32 @@
 
 .video__text {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1.3;
     color: rgb(56, 54, 54);
-    margin: 0px auto;
+    margin: 20px auto;
 }
 
 .video__examples-container {
     position: relative;
     width: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+
+.video__examples {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 10px));
+    gap: 20px;
 }
 
 .video__subtitle {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1.3;
     color: #94B5C3;
-    margin: 0px auto 30px;
+    margin: 0px auto 10px;
 }
 
 .video__img {
@@ -90,7 +94,7 @@
 
 .video__caption {
     color: black;
-    margin: 20px auto 50px;
+    margin: 20px auto 80px;
 }
 
 .video__caption:last-child {

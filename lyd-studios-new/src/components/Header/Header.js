@@ -3,7 +3,6 @@ import telegram from '../../images/telegram.svg';
 import email from '../../images/email.svg';
 import whatsapp from '../../images/whatsapp.svg';
 import logo from '../../images/logo.svg';
-import logo_horiz from '../../images/text-logo-horiz.svg';
 import notebook from '../../images/notebook.svg';
 
 function Header () {
@@ -11,7 +10,7 @@ function Header () {
         <header className='header'>
             <div className='header__container'>
                 <div className='header__logo-container' >
-                    <h1 className='header__logo-text' src={logo_horiz}>LYD STUDIOS</h1>
+                    <h1 className='header__logo-text' >LYD STUDIOS</h1>
                     <img className='header__logo' src={logo}  alt='logo' />
                     <hr className='header__line header__line_orange'></hr>
                 </div>

@@ -1,6 +1,5 @@
 import './Market.css';
-import logo from '../../images/logo.svg';
-import logo_vert from '../../images/text-logo-vert.svg';
+import Logo from '../Logo/Logo';
 import market_1 from '../../images/market_1.png';
 import market_2 from '../../images/market_2.png';
 
@@ -8,10 +7,7 @@ function Market () {
     return(
         <section className='market'>
             <div className='market__main-container'>
-                <div className='about-studio__logo-container'>
-                    <img className='about-studio__logo' src={logo} alt='logo' />
-                    <img className='about-studio__logo-text market__logo-text' src={logo_vert} alt='logo'/>
-                </div>
+            <Logo darkTheme={true}/>
                 <div className='market__text-container' >
                     <p className='market__text'>In five years russian online education market has grown by 300%, and the experts unanimously agree that it will continue to grow in the years to come. 
                         Even now there are billions of dollars being made by various platforms operating in Russia. 

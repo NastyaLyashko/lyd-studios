@@ -27,16 +27,15 @@
     position: relative;
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 100px 1fr;
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 100px;
     align-items: center;
     margin-top: 20px;
 }
 
 .about-studio__line {
-    position: absolute;
-    right: calc(50% - 16px);
+    grid-row: 1/4;
+    grid-column: 2/3;
 }
 
 .about-studio__studio-img {

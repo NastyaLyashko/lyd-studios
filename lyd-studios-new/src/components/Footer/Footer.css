@@ -4,17 +4,19 @@
 }
 
 .footer__logo-text {
-    display: block;
-    padding: 70px 70px 20px;
-    max-width: 780px;
-    width:  calc(100% - 140px);
-    max-height: 127px;
+    text-align: center;
     margin: auto;
+    font-family: "MTV Upgrade Bold";
+    font-size: 125px;
+    line-height: 1;
+    color: #6695AA;
+    -webkit-text-stroke: 5px #EAA985;
 }
 
 .footer__main-container {
     max-width: 1140px;
     margin: auto;
+    padding: 70px;
     position: relative;
 }
 
@@ -39,7 +41,7 @@
     display: block;
     height: 32px;
     width: 100%;
-    margin: 0px auto 100px;
+    margin: 0px auto;
 }
 
 @media (max-width: 1186px) {

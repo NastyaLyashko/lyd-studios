@@ -1,8 +1,7 @@
 import React from 'react';
 import './Video.css';
-import logo from '../../images/logo.svg';
-import logo_vert_white from '../../images/text-logo-vert_white.svg';
-import line from '../../images/line.svg';
+import Logo from '../Logo/Logo';
+import Line from '../Line/Line';
 import Hadfield from '../../images/Hadfield.png';
 import Lynch from '../../images/Lynch.png';
 // import Photography from '../../images/PHOTOGRAPHY.png';
@@ -31,32 +30,46 @@ function Video ({ onImgClick }) {
     return(
         <section className='video'>
             <div className='video__container' >
-                <img className='video__line' src={line} alt='' />
                 <div className='video__studio-container' >
                     <h2 className='video__title'>Here’s a video, showcasing our studio equipment.</h2>
-                    <div className='video__youtube'>
+                    <p className='video__text'>We have professional gear installed and ready to use, 
+                    which allows us to quickly deliver high-quality product.</p>
                         <iframe className='video__iframe'
-                                src="https://www.youtube.com/embed/vhp7gxVKNAU" 
-                                title="YouTube video player" 
+                            width="760"
+                            height="430"
+                            src="https://www.youtube.com/embed/vhp7gxVKNAU"
+                            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
+                            html,body{height:100%}
+                            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+                            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+                            </style>
+                            <a href=https://www.youtube.com/embed/vhp7gxVKNAU?autoplay=1>
+                            <img src=https://img.youtube.com/vi/vhp7gxVKNAU/hqdefault.jpg alt='Demo video'>
+                            <span>▶</span>
+                            </a>"
+                            frameborder="0"
+                            title="Demo video"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowFullScreen></iframe>
-                    </div>
-                    <p className='video__text'>We have professional gear installed and ready to use, which allows us to quickly deliver high-quality product.</p>
                 </div>
+                <Line vertical={false} />
                 <div className='video__examples-container' >
                     <h3 className='video__subtitle'>Examples of our work:</h3>
-                    <img className='video__img' src={Lynch} alt='' onClick={()=> handleClick(video1)}/>
-                    <p className="video__caption">{video1.title}</p>
-                    {/*   <img className='video__img' src={Photography} alt='' onClick={()=> handleClick(video2)}/> 
-                    <p className="video__caption">{video2.title}</p> */}
-                    <img className='video__img' src={Hadfield} alt='' onClick={()=> handleClick(video3)}/>
-                    <p className="video__caption">{video3.title}</p>
+                    <div className='video__examples' >
+                        <div className='video__video' >
+                            <img className='video__img' src={Lynch} alt='' onClick={()=> handleClick(video1)}/>
+                            <p className="video__caption">{video1.title}</p>
+                        </div>
+                        {/*   <img className='video__img' src={Photography} alt='' onClick={()=> handleClick(video2)}/> 
+                        <p className="video__caption">{video2.title}</p> */}
+                        <div className='video__video' >
+                            <img className='video__img' src={Hadfield} alt='' onClick={()=> handleClick(video3)}/>
+                            <p className="video__caption">{video3.title}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className='about-us__logo-container'>
-                <img className='about-us__logo-text' src={logo_vert_white} alt='logo'/>
-                <img className='about-us__logo' src={logo} alt='logo' />
-            </div>
+            <Logo darkTheme={false}/>
         </section>
     )
 }
